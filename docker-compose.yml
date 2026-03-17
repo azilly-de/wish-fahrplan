@@ -1,0 +1,12 @@
+services:
+  wish-fahrplan:
+    build: .
+    container_name: wish-fahrplan
+    ports:
+      - "23234:23234"
+    restart: unless-stopped
+    volumes:
+      - ssh-keys:/app/.ssh
+
+volumes:
+  ssh-keys:

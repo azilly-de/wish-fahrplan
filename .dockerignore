@@ -1,0 +1,5 @@
+.git
+.wish-fahrplan
+*.md
+.wish_fahrplan_ed25519
+ssh-keys
